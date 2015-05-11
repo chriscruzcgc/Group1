@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 3d0fedda34719e74695a625e821f44a0
+timeCreated: 1431362046
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: curve1
+    100004: hand:polySurface5
+    100006: joint1
+    100008: joint10
+    100010: joint11
+    100012: joint12
+    100014: joint12 1
+    100016: joint13
+    100018: joint13 1
+    100020: joint14
+    100022: joint14 1
+    100024: joint15
+    100026: joint15 1
+    100028: joint16
+    100030: joint16 1
+    100032: joint17
+    100034: joint17 1
+    100036: joint18
+    100038: joint18 1
+    100040: joint19
+    100042: joint19 1
+    100044: joint2
+    100046: joint20
+    100048: joint20 1
+    100050: joint21
+    100052: joint21 1
+    100054: joint22
+    100056: joint22 1
+    100058: joint23
+    100060: joint23 1
+    100062: joint24
+    100064: joint24 1
+    100066: joint25
+    100068: joint25 1
+    100070: joint26
+    100072: joint26 1
+    100074: joint3
+    100076: joint4
+    100078: joint43
+    100080: joint44
+    100082: joint45
+    100084: joint45 1
+    100086: joint46
+    100088: joint46 1
+    100090: joint47
+    100092: joint5
+    100094: joint54
+    100096: joint55
+    100098: joint56
+    100100: joint57
+    100102: joint58
+    100104: joint59
+    100106: joint6
+    100108: joint60
+    100110: joint61
+    100112: joint7
+    100114: joint8
+    100116: joint9
+    100118: L_Arm_Cur
+    100120: L_Elbow_Cur
+    100122: L_Wrist_Cur
+    100124: nurbsCircle10
+    100126: nurbsCircle11
+    100128: nurbsCircle13
+    100130: nurbsCircle14
+    100132: nurbsCircle16
+    100134: nurbsCircle17
+    100136: nurbsCircle18
+    100138: nurbsCircle21
+    100140: nurbsCircle22
+    100142: nurbsCircle3
+    100144: nurbsCircle5
+    100146: nurbsCircle6
+    100148: nurbsCircle7
+    100150: nurbsCircle8
+    100152: nurbsCircle9
+    100154: polySurface6
+    400000: //RootNode
+    400002: curve1
+    400004: hand:polySurface5
+    400006: joint1
+    400008: joint10
+    400010: joint11
+    400012: joint12
+    400014: joint12 1
+    400016: joint13
+    400018: joint13 1
+    400020: joint14
+    400022: joint14 1
+    400024: joint15
+    400026: joint15 1
+    400028: joint16
+    400030: joint16 1
+    400032: joint17
+    400034: joint17 1
+    400036: joint18
+    400038: joint18 1
+    400040: joint19
+    400042: joint19 1
+    400044: joint2
+    400046: joint20
+    400048: joint20 1
+    400050: joint21
+    400052: joint21 1
+    400054: joint22
+    400056: joint22 1
+    400058: joint23
+    400060: joint23 1
+    400062: joint24
+    400064: joint24 1
+    400066: joint25
+    400068: joint25 1
+    400070: joint26
+    400072: joint26 1
+    400074: joint3
+    400076: joint4
+    400078: joint43
+    400080: joint44
+    400082: joint45
+    400084: joint45 1
+    400086: joint46
+    400088: joint46 1
+    400090: joint47
+    400092: joint5
+    400094: joint54
+    400096: joint55
+    400098: joint56
+    400100: joint57
+    400102: joint58
+    400104: joint59
+    400106: joint6
+    400108: joint60
+    400110: joint61
+    400112: joint7
+    400114: joint8
+    400116: joint9
+    400118: L_Arm_Cur
+    400120: L_Elbow_Cur
+    400122: L_Wrist_Cur
+    400124: nurbsCircle10
+    400126: nurbsCircle11
+    400128: nurbsCircle13
+    400130: nurbsCircle14
+    400132: nurbsCircle16
+    400134: nurbsCircle17
+    400136: nurbsCircle18
+    400138: nurbsCircle21
+    400140: nurbsCircle22
+    400142: nurbsCircle3
+    400144: nurbsCircle5
+    400146: nurbsCircle6
+    400148: nurbsCircle7
+    400150: nurbsCircle8
+    400152: nurbsCircle9
+    400154: polySurface6
+    4300000: hand:polySurface5
+    9500000: //RootNode
+    13700000: hand:polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
