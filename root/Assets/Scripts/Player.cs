@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     public float speed = 3.0f;
     public float score = 0f;
 
+    //int newScore;
+    //int oldScore;
+
 
     public void OnGUI()
     {
@@ -14,7 +17,7 @@ public class Player : MonoBehaviour
         myStyle.fontSize = 30;
         myStyle.normal.textColor = Color.green;
         //Display the score
-        string text = "Score: " + score;
+        string text = "Score: " + ScoreManager.instance.Score;
         GUI.Label(new Rect(700, 10, 60, 20), text, myStyle);
     }
 
@@ -27,20 +30,22 @@ public class Player : MonoBehaviour
         //If player collides with 'Evil', score decreases & enemy is destroyed
         if (collision.gameObject.tag == "evilcloud")
         {
-            score -= 5;
-            ScoreManager.instance.Score = score;
+            //score -= 5;
+            ScoreManager.instance.Score = score -= 5;
             print("Lost points");
             Destroy(collision.gameObject);
         }
         //If player collides with 'Good', score increases & good is destroyed
         else if (collision.gameObject.tag == "goodcloud")
         {
-            score += 5;
-            ScoreManager.instance.Score = score;
+            //score += 5;
+            ScoreManager.instance.Score = score += 5;
             print("Points gained");
             Destroy(collision.gameObject);
         }
     }
+
+    //void AddScore(
     // Use this for initialization
     void Start()
     {
