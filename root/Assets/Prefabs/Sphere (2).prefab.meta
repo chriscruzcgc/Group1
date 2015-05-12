@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 62c21e58a42bc2d41808ce9a8840f6da
 timeCreated: 1431372822
+=======
+guid: e980973e99d9d2041abe07c613f9abde
+timeCreated: 1431472715
+>>>>>>> chuwilliamson/master
 licenseType: Free
 NativeFormatImporter:
   userData: 

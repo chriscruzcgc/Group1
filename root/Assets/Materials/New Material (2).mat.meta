@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:root/Assets/Materials/New Material (2).mat.meta
 guid: 19f8d6256f7f3d748991660afc927fd0
 timeCreated: 1431372818
+=======
+guid: afae07dd6c1630546a03a195bf7b0f95
+timeCreated: 1431472705
+>>>>>>> chuwilliamson/master:root/Assets/Materials/New Material (2).mat.meta
 licenseType: Free
 NativeFormatImporter:
   userData: 
