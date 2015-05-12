@@ -18,6 +18,11 @@ public class EnemyShoot : MonoBehaviour
 
 
     }
+
+    /*void Awake()
+    {
+        Destroy(gameObject, lifetime);
+    }*/
    
     void Update()
     {

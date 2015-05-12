@@ -1,5 +1,5 @@
 ﻿#pragma strict
-
+var lifetime = 2;
 function OnTriggerEnter (col : Collider)
 {
 	if (col.gameObject.tag == "Enemy")
@@ -12,4 +12,9 @@ function OnTriggerEnter (col : Collider)
 	{
 		Destroy(gameObject);
 	}
+}
+
+function Awake()
+{
+    Destroy(gameObject, lifetime);
 }

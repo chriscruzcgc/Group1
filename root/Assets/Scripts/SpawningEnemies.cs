@@ -14,7 +14,7 @@ public class SpawningEnemies : MonoBehaviour {
 
         if (numberOfEnemies == 0)
         {
-            gameOver = true;
+            Application.LoadLevel(0);
         }
 	}
 
@@ -40,7 +40,7 @@ public class SpawningEnemies : MonoBehaviour {
 
             if (numberOfEnemies <= 0)
             {
-                gameOver = true;
+                Application.LoadLevel(0);
             }
             xOffset += Vector3.right;
 

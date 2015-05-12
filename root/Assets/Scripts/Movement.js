@@ -14,10 +14,10 @@ function Start ()
 	controller = GetComponent(CharacterController);
 }
 
-function Awake()
+/*function Awake()
 {
     Destroy(bullet,lifetime);
-}
+}*/
 /*function OnDestroy()
 {
     transform.parent.gameObject.AddComponent<GameLose>();
