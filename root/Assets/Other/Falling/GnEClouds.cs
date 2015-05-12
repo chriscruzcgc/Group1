@@ -89,7 +89,8 @@ public class GnEClouds : MonoBehaviour
         {
             startTime = 0.0f;
             //Reset clouds in random positions at the original starting point
-            transform.localPosition = initialPos * Random.Range(1, 5);
+            Vector3 RandomPos = new Vector3(Random.Range(-7.0f, 7.0f), 0, Random.Range(-7.0f, 7.0f));
+            transform.position = initialPos + RandomPos;
             
         }
     }
