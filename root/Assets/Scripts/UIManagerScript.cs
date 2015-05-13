@@ -29,4 +29,8 @@ public class UIManagerScript : MonoBehaviour
 
 	}
 
+    public void DarknessGame()
+    {
+        Application.LoadLevel("DarknessScene");
+    }
 }
