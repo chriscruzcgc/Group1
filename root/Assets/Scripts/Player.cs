@@ -7,10 +7,6 @@ public class Player : MonoBehaviour
     public float speed = 3.0f;
     public float score = 0f;
 
-    //int newScore;
-    //int oldScore;
-
-
     public void OnGUI()
     {
         GUIStyle myStyle = new GUIStyle();
@@ -20,7 +16,7 @@ public class Player : MonoBehaviour
         string text = "Score: " + ScoreManager.instance.Score;
         GUI.Label(new Rect(700, 10, 60, 20), text, myStyle);
     }
-
+       
     private static Player _instance;
 
 
@@ -42,16 +38,11 @@ public class Player : MonoBehaviour
             ScoreManager.instance.Score = score += 5;
             print("Points gained");
             Destroy(collision.gameObject);
-        }
+        };
     }
 
-    //void AddScore(
     // Use this for initialization
     void Start()
-    {
-        
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -70,5 +61,6 @@ public class Player : MonoBehaviour
 
         transform.position = pos;
         transform.Translate(x, 0, y, Space.Self);
+
     }
 }

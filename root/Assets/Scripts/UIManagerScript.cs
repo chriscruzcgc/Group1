@@ -11,6 +11,7 @@ public class UIManagerScript : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        print("Quit");
     }
 
     public void MapScene()
@@ -26,6 +27,7 @@ public class UIManagerScript : MonoBehaviour
 	public void StartLevel1()
 	{
 		Application.LoadLevel("Falling");
+        ScoreManager.instance.Score = 0;
 
 	}
 

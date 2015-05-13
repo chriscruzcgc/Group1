@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ScoreManager : Singleton<ScoreManager> 
-{ 
+{
     //private score.
     //this is the score that is local to the scoremanager
     private float _score;
@@ -19,4 +19,5 @@ public class ScoreManager : Singleton<ScoreManager>
             _score = value;
         }
     }
+    
 }
