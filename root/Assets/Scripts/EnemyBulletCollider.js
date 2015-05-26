@@ -9,10 +9,14 @@ var lifetime = 2;
                 GameObject.Destroy(this.gameObject);
                 Application.LoadLevel(0);
             }
+            else if(col.gameObject.tag == "bullet")
+            {
+                Destroy(gameObject); 
+            }
             else if (col.gameObject.tag != "Enemy")
             {
                 Destroy(gameObject);
-                Application.LoadLevel(2);
+                
             }
         }
         function Awake()

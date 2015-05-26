@@ -92,7 +92,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162434}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .308663815, y: .318773985, z: .308663845}
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  numberOfEnemies: 32
   wallR: {fileID: 105506, guid: 3fb7092f1ec1ce54db1f773407568312, type: 2}
   wallL: {fileID: 161838, guid: 3fb7092f1ec1ce54db1f773407568312, type: 2}
 --- !u!1001 &100100000

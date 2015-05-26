@@ -7,16 +7,19 @@ public class SpawningEnemies : MonoBehaviour {
 	void Start () 
     {
         SpawnEnemies();
+     
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (numberOfEnemies == 0)
-        {
-            Application.LoadLevel(0);
-        }
+        
 	}
+
+   
+
+   
 
     [ContextMenu ("Populate")]
     void SpawnEnemies()
@@ -38,10 +41,7 @@ public class SpawningEnemies : MonoBehaviour {
                 yOffset += Vector3.down; 
             }
 
-            if (numberOfEnemies <= 0)
-            {
-                Application.LoadLevel(0);
-            }
+           
             xOffset += Vector3.right;
 
             //go to next dude
@@ -63,5 +63,6 @@ public class SpawningEnemies : MonoBehaviour {
     public int numberOfEnemies;
     public int numberOfColumns;
     private bool gameOver;
+    public int numberOfEnemiesLeft;
     //public Rigidbody EnemyBulletPrefab;
 }

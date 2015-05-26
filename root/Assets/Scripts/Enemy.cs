@@ -1,55 +1,70 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour 
+public class Enemy : MonoBehaviour
 {
 
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start()
     {
-       //this.nextShootTime = Random.Range(minShootDelay, maxShootDelay);
-	}
-	
- 
+
+        //this.nextShootTime = Random.Range(minShootDelay, maxShootDelay);
+    }
+
+
     void OnTriggerEnter(Collider col)
     {
         moveDir = !moveDir;
         transform.position = new Vector3(transform.position.x, transform.position.y - .5f, transform.position.z);
 
-         
+     /*   if (col.gameObject.tag == "Player")
+        {
+            GameObject.Destroy(col.gameObject);
+            //  GameObject.Destroy(this.gameObject);
+            Application.LoadLevel(0);
+        }*/
 
     }
 
-    void OnCollisionEnter(Collision col)
+ 
+   /* void OnCollisionEnter(Collision col)
     {
-       
+        if(col.gameObject.tag == "Player")
+        {
+            if (numberOfEnemiesLeft <= 1)
+            {
+                Application.LoadLevel(0);
+            }
+        }
 
-    }
+    }*/
 
 
     bool moveDir = true;
     private Vector3 left = Vector3.left;
     private Vector3 right = Vector3.right;
-   // public float speed = 10.5f;
+    // public float speed = 10.5f;
     [SerializeField]
     private int moveSpeed;// = 2;
     private int timer = 300;
+    public int numberOfEnemies = 32;
     public GameObject wallR;
     public GameObject wallL;
-   /* public GameObject bullet;
-    public Rigidbody EnemyBulletPrefab;
-    public float minShootDelay = 1.0f;
-    public float maxShootDelay = 5.0f;
-    private float nextShootTime = 0.0f;*/
-   
-     Vector3 dir;
+    private int numberOfEnemiesLeft;
+    /* public GameObject bullet;
+     public Rigidbody EnemyBulletPrefab;
+     public float minShootDelay = 1.0f;
+     public float maxShootDelay = 5.0f;
+     private float nextShootTime = 0.0f;*/
+
+    Vector3 dir;
     //public GameObject box;
-    
+
 
     void Update()
     {
-       // transform.Translate(direction * Time.deltaTime);
-       
+        // transform.Translate(direction * Time.deltaTime);
+
         if (moveDir)
             dir = Vector3.left;
         else
@@ -57,11 +72,18 @@ public class Enemy : MonoBehaviour
 
         transform.Translate(moveSpeed * Time.deltaTime * dir);
 
-       /* if (Time.time > nextShootTime)
+        var enemies = GameObject.FindWithTag("Enemy");
         {
-            Instantiate(EnemyBulletPrefab, this.transform.position, Quaternion.identity);
-            nextShootTime = Time.time + Random.Range(minShootDelay, maxShootDelay);
-        }*/
+           if(enemies == null)
+           {
+               Application.LoadLevel(0);
+           }
+        }
+        /* if (Time.time > nextShootTime)
+         {
+             Instantiate(EnemyBulletPrefab, this.transform.position, Quaternion.identity);
+             nextShootTime = Time.time + Random.Range(minShootDelay, maxShootDelay);
+         }*/
 
         /*timer -= 1;
         if (timer < 2)
@@ -75,8 +97,8 @@ public class Enemy : MonoBehaviour
                 fire_bullet.AddForce(-Vector3.up * 500);
             }
             timer = 300;*/
-        }
-
+    }
+}
         /*
         if (movingLeft && transform.localPosition.x <= -30)
         {
@@ -91,10 +113,10 @@ public class Enemy : MonoBehaviour
         }
 
        */
-        
-        
- 
-    }
+
+
+
+
 
 
 /*
