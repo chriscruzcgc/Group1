@@ -12,6 +12,7 @@ var lifetime = 2.0;
 
 
 
+
 function Start () 
 {
     controller = GetComponent(CharacterController);
@@ -43,6 +44,12 @@ function OnTriggerEnter(col : Collider)
         movement *= 5;
 	
         controller.Move(movement * Time.deltaTime);
+
+        print(GameObject.FindGameObjectsWithTag("Enemy").Length);
+        if(GameObject.FindGameObjectsWithTag("Enemy").Length==0)
+        {
+            Application.LoadLevel(0);
+        }
 
         
 

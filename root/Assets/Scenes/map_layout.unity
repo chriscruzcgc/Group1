@@ -44966,7 +44966,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1850415865}
-  - 114: {fileID: 1850415866}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -44986,17 +44985,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
---- !u!114 &1850415866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850415864}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c741f4767f8f4684b822b782a3b296a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1851780754
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b01204ba293ca6542a417fca3f7640f0, type: 3}

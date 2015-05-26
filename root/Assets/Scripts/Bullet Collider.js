@@ -1,6 +1,7 @@
 ﻿#pragma strict
 var lifetime = 2;
-var numberOfEnemies : int;
+//var numberOfEnemies : int;
+var EnemysToKill = 6;
 
 
 
@@ -9,8 +10,7 @@ function OnTriggerEnter (col : Collider)
         if (col.gameObject.tag == "Enemy")
         {
             gameObject.Find("Main Camera").GetComponent(Stats).current_score += 250;
-           
-          
+            
             Destroy(gameObject);
             Destroy(col.gameObject);
             /*if(GameObject.FindGameObjectsWithTag("Enemy")==0);
@@ -34,15 +34,18 @@ function OnTriggerEnter (col : Collider)
         }
 }
 
-function OnCollisionStay (col : Collider)
-   {
-        if(col.gameObject.tag == "Enemy")
+    function OnCollisionStay (col : Collider)
         {
-            numberOfEnemies--;
-            if(numberOfEnemies == 30)
-                Application.LoadLevel(0);
+            if(col.gameObject.name == "Enemy")
+            {
+                Destroy(col.gameObject);
+                EnemysToKill--;
+                if(EnemysToKill == 30)
+
+                    Application.LoadLevel(0);
+                Destroy(gameObject);
+            }
         }
-    }
     
 function Awake()
 {
