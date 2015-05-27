@@ -45,7 +45,7 @@ function OnTriggerEnter(col : Collider)
 	
         controller.Move(movement * Time.deltaTime);
 
-        print(GameObject.FindGameObjectsWithTag("Enemy").Length);
+      //  print(GameObject.FindGameObjectsWithTag("Enemy").Length);
         if(GameObject.FindGameObjectsWithTag("Enemy").Length==0)
         {
             Application.LoadLevel(0);

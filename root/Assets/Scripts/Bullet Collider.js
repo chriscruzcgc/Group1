@@ -34,7 +34,7 @@ function OnTriggerEnter (col : Collider)
         }
 }
 
-    function OnCollisionStay (col : Collider)
+   /* function OnCollisionStay (col : Collider)
         {
             if(col.gameObject.name == "Enemy")
             {
@@ -45,7 +45,7 @@ function OnTriggerEnter (col : Collider)
                     Application.LoadLevel(0);
                 Destroy(gameObject);
             }
-        }
+        }*/
     
 function Awake()
 {
