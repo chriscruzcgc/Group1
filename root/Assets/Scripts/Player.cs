@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
        
     private static Player _instance;
 
-
     //Collision with player
     void OnTriggerEnter(Collider collision)
     {
@@ -47,7 +46,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     
         float x = Input.GetAxis("Horizontal") * Time.smoothDeltaTime * speed;
+        //print(x);
         float y = Input.GetAxis("Vertical") * Time.smoothDeltaTime * speed;
 
         Vector3 pos = transform.position;

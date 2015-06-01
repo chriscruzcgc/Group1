@@ -1,37 +1,41 @@
 fileFormatVersion: 2
-guid: 620c4056f7ac8344f8765d04b145c8b8
-timeCreated: 1425859699
+guid: 2b0aa3bfaf79c46438998bdad7fca08d
+timeCreated: 1425861711
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
-    100002: EvilcloudZ1:Group1
-    100004: pPlane1
-    100006: pPlane2
-    100008: pPlane3
-    100010: pSphere6
-    100012: pSphere7
-    100014: transform12
-    100016: transform13
-    100018: transform14
-    100020: transform15
-    100022: transform16
+    100002: pCube1
+    100004: pCylinder1
+    100006: pCylinder2
+    100008: pCylinder3
+    100010: pCylinder4
+    100012: pCylinder5
+    100014: pCylinder6
+    100016: transform1
+    100018: transform2
+    100020: transform3
+    100022: transform4
+    100024: transform5
+    100026: transform6
     400000: //RootNode
-    400002: EvilcloudZ1:Group1
-    400004: pPlane1
-    400006: pPlane2
-    400008: pPlane3
-    400010: pSphere6
-    400012: pSphere7
-    400014: transform12
-    400016: transform13
-    400018: transform14
-    400020: transform15
-    400022: transform16
-    2300000: pPlane3
-    3300000: pPlane3
-    4300000: pPlane3
+    400002: pCube1
+    400004: pCylinder1
+    400006: pCylinder2
+    400008: pCylinder3
+    400010: pCylinder4
+    400012: pCylinder5
+    400014: pCylinder6
+    400016: transform1
+    400018: transform2
+    400020: transform3
+    400022: transform4
+    400024: transform5
+    400026: transform6
+    2300000: pCylinder6
+    3300000: pCylinder6
+    4300000: pCylinder6
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -52,7 +56,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 5
+    globalScale: 2
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
