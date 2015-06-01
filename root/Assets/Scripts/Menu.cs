@@ -34,6 +34,19 @@ public class Menu : MonoBehaviour {
     {
         Application.LoadLevel(1);
     }
+    public void StartLeve2()
+    {
+        Application.LoadLevel(2);
+    }
+    public void StartLevel3()
+    {
+        Application.LoadLevel(3);
+    }
+    public void StartLevel4()
+    {
+        Application.LoadLevel(4);
+    }
+
 
     public void ExitGame()
     {

@@ -229,8 +229,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 645327283}
+  - 114: {fileID: 645327284}
   m_Layer: 0
-  m_Name: Missing Prefab
+  m_Name: ScoreManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,6 +249,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &645327284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 645327282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3f2dd8cfbb42a458f613b770d9ff62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &768443690
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,11 +389,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!1 &814944247
+--- !u!1 &814944247 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 141514, guid: b34182847fcf0da4193a39503862c9c7, type: 2}
   m_PrefabInternal: {fileID: 475632621}
+<<<<<<< HEAD
 --- !u!4 &814944248
+=======
+--- !u!4 &814944248 stripped
+>>>>>>> chuwilliamson/master
 Transform:
   m_PrefabParentObject: {fileID: 439808, guid: b34182847fcf0da4193a39503862c9c7, type: 2}
   m_PrefabInternal: {fileID: 475632621}
