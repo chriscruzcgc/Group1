@@ -1,17 +1,5 @@
 ﻿#pragma strict
-
-/*function OnTriggerEnter ( col : Collider)
-    {
-        if(col.gameObject.name == "bed1")
-        {
-            Destroy(gameObject);
-            Destroy(col.gameObject);
-        }
-        else if (col.gameObject.tag != "Enemy")
-        {
-            Destroy(gameObject);
-        }
-    }*/
+var lifetime = 2;
 
     function OnTriggerEnter(col : Collider)
         {
@@ -19,11 +7,21 @@
             {
                 GameObject.Destroy(col.gameObject);
                 GameObject.Destroy(this.gameObject);
+                Application.LoadLevel(0);
+            }
+            else if(col.gameObject.tag == "bullet")
+            {
+                Destroy(gameObject); 
             }
             else if (col.gameObject.tag != "Enemy")
             {
                 Destroy(gameObject);
+                
             }
         }
-
+        function Awake()
+        {
+            Destroy(gameObject, lifetime);
+        }
+     
        

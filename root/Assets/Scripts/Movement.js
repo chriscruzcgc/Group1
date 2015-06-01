@@ -9,29 +9,57 @@ var nextFire = 0;
 var lives : int;
 var lifetime = 2.0;
 
+
+
+
+
 function Start () 
 {
-	controller = GetComponent(CharacterController);
+    controller = GetComponent(CharacterController);
 }
 
-function Awake()
-{
-    Destroy(bullet,lifetime);
-}
-/*function OnDestroy()
-{
-    transform.parent.gameObject.AddComponent<GameLose>();
-}*/
 
-function Update () 
-{
-    movement = Vector3(Input.GetAxis("Horizontal"), 0, 0);
+function OnTriggerEnter(col : Collider)
+    {
+        if(col.gameObject.tag == "Enemy")
+        {
+            GameObject.Destroy(col.gameObject);
+            GameObject.Destroy(this.gameObject);
+            Application.LoadLevel(0);
+        }
+    }
+
+
+    /*function OnDestroy()
+    {
+        transform.parent.gameObject.AddComponent<GameLose>();
+    }*/
+
+    function Update () 
+    {
+        movement = Vector3(Input.GetAxis("Horizontal"), 0, 0);
 	
-    movement = transform.TransformDirection(movement);
+        movement = transform.TransformDirection(movement);
 	
-    movement *= 5;
+        movement *= 5;
 	
-    controller.Move(movement * Time.deltaTime);
+        controller.Move(movement * Time.deltaTime);
+
+      //  print(GameObject.FindGameObjectsWithTag("Enemy").Length);
+        if(GameObject.FindGameObjectsWithTag("Enemy").Length==0)
+        {
+            Application.LoadLevel(0);
+        }
+
+        
+
+    //print(GameObject.FindGameObjectsWithTag("Enemy"));
+    /*if(GameObject.FindGameObjectsWithTag("Enemy") == 0);
+    {
+        Application.LoadLevel(0);
+    }*/
+
+   
 
 
     if (Input.GetKeyUp("up") && Time.time > nextFire)
