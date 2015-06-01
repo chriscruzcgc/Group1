@@ -7,7 +7,7 @@ var lifetime = 2;
             {
                 GameObject.Destroy(col.gameObject);
                 GameObject.Destroy(this.gameObject);
-                Application.LoadLevel(0);
+                Application.LoadLevel("map_layout");
             }
             else if(col.gameObject.tag == "bullet")
             {

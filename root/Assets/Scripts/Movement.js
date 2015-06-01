@@ -25,7 +25,7 @@ function OnTriggerEnter(col : Collider)
         {
             GameObject.Destroy(col.gameObject);
             GameObject.Destroy(this.gameObject);
-            Application.LoadLevel(0);
+            Application.LoadLevel("map_layout");
         }
     }
 
@@ -48,7 +48,7 @@ function OnTriggerEnter(col : Collider)
       //  print(GameObject.FindGameObjectsWithTag("Enemy").Length);
         if(GameObject.FindGameObjectsWithTag("Enemy").Length==0)
         {
-            Application.LoadLevel(0);
+            Application.LoadLevel("map_layout");
         }
 
         
