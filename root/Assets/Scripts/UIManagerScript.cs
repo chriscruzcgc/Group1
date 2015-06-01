@@ -31,4 +31,13 @@ public class UIManagerScript : MonoBehaviour
 
 	}
 
+	public void StartLevel2()
+	{
+		Application.LoadLevel ("NakedGame");
+	}
+
+	public void Level2Opening()
+	{
+		Application.LoadLevel ("NakedOpening");
+	}
 }

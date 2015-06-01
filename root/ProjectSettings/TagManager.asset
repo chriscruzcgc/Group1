@@ -5,13 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Light
-  - Fire
   - bullet
   - goodcloud
-  - Enemy
   - evilcloud
-  - wallRight
-  - wallLeft
   layers:
   - Default
   - TransparentFX
@@ -21,10 +17,10 @@ TagManager:
   - UI
   - 
   - 
-  - Enemy Bullet
-  - Player
-  - Enemy
-  - Player Bullet
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
