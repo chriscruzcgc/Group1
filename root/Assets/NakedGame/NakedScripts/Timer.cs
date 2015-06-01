@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour {
         {
             myTimer -= Time.deltaTime;
         }
-        else { Application.LoadLevel("FallingEnd"); }
+        else { Application.LoadLevel("NakedEnd"); }
 	
 	}
 }

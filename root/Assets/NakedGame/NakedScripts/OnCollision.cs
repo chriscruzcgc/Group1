@@ -33,6 +33,7 @@ public class OnCollision : MonoBehaviour {
 		health --;
 		if (health <= 0) {
 			Destroy (gameObject);
+			Application.LoadLevel("NakedVictory");
 	}
 
   }
