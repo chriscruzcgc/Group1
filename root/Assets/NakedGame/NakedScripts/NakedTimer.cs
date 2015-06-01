@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Timer : MonoBehaviour {
+public class NakedTimer : MonoBehaviour {
 
     public float myTimer = 2.0f;
 
