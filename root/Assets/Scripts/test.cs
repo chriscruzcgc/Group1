@@ -3,22 +3,16 @@ using System.Collections;
 
 public class test : MonoBehaviour
 {
+ 
+    void OnTriggerEnter(Collider c)
+	{
 
+		if (c.CompareTag ("Player")) 
+		{
+			GameObject.FindGameObjectWithTag("Player").GetComponent<UnityStandardAssets.Characters.ThirdPerson.AICharacterControl>().SetTarget(dest);
+		
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            if (!levelLoaded)
-            {
-                levelLoaded = true;
-                Application.LoadLevel(levelToLoad);
-            }
-        }
-
-    }
-
-    public bool levelLoaded = false;
-    public string levelToLoad;
+		}
+	} 
+	public Transform dest;
 }

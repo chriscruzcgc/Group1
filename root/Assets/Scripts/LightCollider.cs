@@ -16,7 +16,7 @@ public class LightCollider : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             Debug.Log("Win");
-            Application.Quit();
+            Application.LoadLevel("DarknessWin");
         }
     }
 }

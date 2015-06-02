@@ -8,6 +8,9 @@ TagManager:
   - bullet
   - goodcloud
   - evilcloud
+  - shirt
+  - pants
+  - shoes
   layers:
   - Default
   - TransparentFX
