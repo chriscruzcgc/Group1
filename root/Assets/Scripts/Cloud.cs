@@ -23,6 +23,7 @@ public class Cloud : MonoBehaviour
         PlaceNeutral();
 	}
 
+    [ContextMenu("Make Clouds")]
     void PlaceNeutral()
     {
         GameObject neutralCloudParent = new GameObject("ntrlParent");
@@ -39,7 +40,7 @@ public class Cloud : MonoBehaviour
     {
         int x, y, z;
         x = UnityEngine.Random.Range(min, max);
-        y = UnityEngine.Random.Range(min, 0);
+        y = UnityEngine.Random.Range(min, -100);
         z = UnityEngine.Random.Range(min, max);
         return new Vector3(x, y, z);
     }
@@ -56,6 +57,7 @@ public class Cloud : MonoBehaviour
 		startTime += Time.deltaTime;
 		//Moves the clouds in an upward position
 		this.transform.Translate (Vector3.up * Time.deltaTime * speed);
+        this.transform.Translate(Vector3.right * Time.deltaTime);
 
 		//Reset clouds position if they are past their lifetime
 		if(startTime > timeToDie)

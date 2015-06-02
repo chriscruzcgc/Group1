@@ -37,7 +37,13 @@ public class GnEClouds : MonoBehaviour
     {
         initialPos = transform.position;
     }
-
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "goodcloud" || collision.gameObject.tag == "evilcloud")
+        {
+            print("DGSJOLGA");
+        }
+    }
     //Instantiates the clouds 
     void PlaceCloud(CLOUDTYPE type)
     {  
@@ -88,8 +94,8 @@ public class GnEClouds : MonoBehaviour
     Vector3 GeneratedPosition()
     {
         int x, y, z;
-        x = UnityEngine.Random.Range(min, max);
-        y = UnityEngine.Random.Range(min, 0);
+        x = UnityEngine.Random.Range(-50, max);
+        y = UnityEngine.Random.Range(0, -125);
         z = UnityEngine.Random.Range(min, max);
        return new Vector3(x, y, z);
     }
@@ -100,6 +106,7 @@ public class GnEClouds : MonoBehaviour
         startTime += Time.deltaTime;
         //Moves the clouds in an upward position
         this.transform.Translate(Vector3.up * Time.deltaTime * speed);
+        this.transform.Translate(Vector3.right * Time.deltaTime);
 
         //Reset clouds position if they are past their lifetime
         if (startTime > timeToDie)
