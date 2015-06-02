@@ -14,7 +14,7 @@ GameObject:
   - 54: {fileID: 5428860}
   - 114: {fileID: 11428406}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Light-Drew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 92, y: 0, z: 333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 425168}
@@ -128,8 +128,8 @@ Light:
     m_Bias: .0500000007
     m_NormalBias: .400000006
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122732}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8adfc5ffdd6a572498c5f9feddbf99cb, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c8e6a009d943549a1d43d8955cabe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &13525640
