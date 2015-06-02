@@ -41,7 +41,7 @@ function OnTriggerEnter(col : Collider)
 	
         movement = transform.TransformDirection(movement);
 	
-        movement *= 5;
+        movement *= 7;
 	
         controller.Move(movement * Time.deltaTime);
 
