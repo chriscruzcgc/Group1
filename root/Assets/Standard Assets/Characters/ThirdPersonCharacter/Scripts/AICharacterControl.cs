@@ -28,6 +28,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             if (target != null)
             {
+				print ("move to " + target.position);
                 agent.SetDestination(target.position);
 
 				

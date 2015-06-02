@@ -5,9 +5,16 @@ using System.Collections;
 public class OnCollision : MonoBehaviour {
 	
 	public int health = 4;
+
+	public GameObject shirt;
+	public GameObject pants;
+	public GameObject shoes;
 	// Use this for initialization
 	void Start () 
 	{
+		shirt.SetActive (false);
+		pants.SetActive (false);
+		shoes.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -26,7 +33,8 @@ public class OnCollision : MonoBehaviour {
 	{
 
 		print ("shot");
-		if (other.gameObject.tag == "bullet")
+		if (other.gameObject.tag != "bullet") return;
+
 			Destroy (other.gameObject);
 			//Destroy ();
 		print ("other tag is " + other.gameObject.tag);
@@ -35,6 +43,23 @@ public class OnCollision : MonoBehaviour {
 			Destroy (gameObject);
 			Application.LoadLevel("NakedVictory");
 	}
+
+		if (health == 3)
+		{
+			shirt.SetActive(true);
+			//activate the shirt
+		}
+		if(health == 2)
+		{
+			pants.SetActive(true);
+			//activate the pants
+		}
+		if(health == 1)
+		{
+			shoes.SetActive(true);
+			//activate the shoes
+		}
+
 
   }
 
