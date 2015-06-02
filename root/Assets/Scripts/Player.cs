@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
        
     private static Player _instance;
 
-
     //Collision with player
     void OnTriggerEnter(Collider collision)
     {

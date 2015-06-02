@@ -5,6 +5,7 @@ public class Pause : MonoBehaviour
 {
     GUISkin guiSkin;
     bool isPaused = false;
+    public string Level;
 
     public void OnGUI()
     {
@@ -22,11 +23,10 @@ public class Pause : MonoBehaviour
             }
 
             // To restart the game
-            // Change ("Falling"); to whatever your game scene is named
             if (GUI.Button(new Rect((Screen.width) / 2.5f, 250, 150, 70), "Restart"))
             {
                 print("Restart");
-                Application.LoadLevel("Falling");
+                Application.LoadLevel(Level);
                 Time.timeScale = 1.0f;
                 isPaused = false;
             }
@@ -36,6 +36,7 @@ public class Pause : MonoBehaviour
             {
                 print("Back to Map");
                 Application.LoadLevel("map_layout");
+                Time.timeScale = 1.0f;
             }
 
             //Quit the entire game 
