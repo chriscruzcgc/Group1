@@ -21,7 +21,6 @@ public class UIManagerScript : MonoBehaviour
             print("could not load lvl.. is it in build settings?");
         }
     }
-<<<<<<< HEAD
 
     public void QuitGame()
     {
@@ -50,6 +49,5 @@ public class UIManagerScript : MonoBehaviour
     {
         Application.LoadLevel("DarknessScene");
     }
-=======
->>>>>>> chuwilliamson/master
+
 }

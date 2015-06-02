@@ -25,3 +25,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Darknessscene.unity
   - enabled: 1
     path: Assets/Scenes/Space INV.unity
+  - enabled: 1
+    path: Assets/Scenes/DarknessLose.unity
+  - enabled: 1
+    path: Assets/Scenes/DarknessWin.unity
+  - enabled: 1
+    path: Assets/Scenes/DarknessOpening.unity
