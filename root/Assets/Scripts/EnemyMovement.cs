@@ -21,6 +21,7 @@ public class EnemyMovement : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             Debug.Log("Hit");
+            Application.LoadLevel("DarknessLose");
         }
     }
 }
