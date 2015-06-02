@@ -27,5 +27,5 @@ function Update ()
 
 function OnGUI()
 {
-	ammoText.text = "Shirts: " + ammo + "/" + maxAmmo;
+	ammoText.text = "Ammo: " + ammo + "/" + maxAmmo;
 	}
