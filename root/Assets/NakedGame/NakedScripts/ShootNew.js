@@ -3,7 +3,7 @@ var projectile : Rigidbody;
 var speed = 0.5;
 var ammo : int = 0;
 var maxAmmo : int = 10;
-
+var ammoText : GUIText;
 
 
 
@@ -23,13 +23,9 @@ function Update ()
 	if( ammo == maxAmmo ) {
 	Application.LoadLevel("NakedEnd");
 	}
-/*else if ( ammo >= maxAmmo && Input.GetKeyDown(KeyCode.R))
-{
-	ammo = 0;
 }
 
-function OnCollisionEnter(collision : Collision) 
+function OnGUI()
 {
-	Destroy(gameObject);
-	}*/
-}
+	ammoText.text = "Ammo: " + ammo + "/" + maxAmmo;
+	}
