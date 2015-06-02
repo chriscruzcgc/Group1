@@ -157,12 +157,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goodPrefab: {fileID: 125104, guid: b8f6ebae89d0a954e9689caf75b3086d, type: 2}
   badPrefab: {fileID: 116050, guid: 6e28c9ee19f4ba745a0788669c99efe1, type: 2}
-  numberOfGood: 5
-  numberOfBad: 5
-  min: -10
-  max: 10
-  life: 5
-  speed: 5
+  numberOfGood: 150
+  numberOfBad: 200
+  min: -35
+  max: 35
+  life: 20
+  speed: 8
 --- !u!4 &528653109
 Transform:
   m_ObjectHideFlags: 0
@@ -242,11 +242,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 10
+  numberOfNeutral: 20
   speed: 5
-  life: 3
-  min: -10
-  max: 10
+  life: 30
+  min: -35
+  max: 35
 --- !u!4 &781396254
 Transform:
   m_ObjectHideFlags: 0
@@ -287,11 +287,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 10
+  numberOfNeutral: 20
   speed: 5
-  life: 4
-  min: -5
-  max: 5
+  life: 30
+  min: -35
+  max: 35
 --- !u!4 &1006118872
 Transform:
   m_ObjectHideFlags: 0
@@ -349,7 +349,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: .300000012
-  far clip plane: 1000
+  far clip plane: 55
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -439,12 +439,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goodPrefab: {fileID: 125104, guid: b8f6ebae89d0a954e9689caf75b3086d, type: 2}
   badPrefab: {fileID: 116050, guid: 6e28c9ee19f4ba745a0788669c99efe1, type: 2}
-  numberOfGood: 5
-  numberOfBad: 5
-  min: -10
-  max: 10
-  life: 6
-  speed: 5
+  numberOfGood: 100
+  numberOfBad: 100
+  min: -25
+  max: 25
+  life: 20
+  speed: 8
 --- !u!4 &1182823847
 Transform:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a185bbc6b0e8b0e468bcae59c849ca37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTimer: 30
+  myTimer: 20
 --- !u!1001 &1699602335
 Prefab:
   m_ObjectHideFlags: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ad94b186208f447812eff925ce68de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6.78999996
+  speed: 8
   score: 0
 --- !u!54 &1829350532
 Rigidbody:
@@ -1029,12 +1029,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goodPrefab: {fileID: 125104, guid: b8f6ebae89d0a954e9689caf75b3086d, type: 2}
   badPrefab: {fileID: 116050, guid: 6e28c9ee19f4ba745a0788669c99efe1, type: 2}
-  numberOfGood: 5
-  numberOfBad: 5
-  min: -5
-  max: 5
-  life: 7
-  speed: 5
+  numberOfGood: 100
+  numberOfBad: 100
+  min: -25
+  max: 25
+  life: 20
+  speed: 8
 --- !u!4 &2045600988
 Transform:
   m_ObjectHideFlags: 0
@@ -1075,11 +1075,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 10
+  numberOfNeutral: 20
   speed: 5
-  life: 2
-  min: -10
-  max: 10
+  life: 30
+  min: -35
+  max: 35
 --- !u!4 &2076722481
 Transform:
   m_ObjectHideFlags: 0
