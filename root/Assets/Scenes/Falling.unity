@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199ec3dd658b66b45942b2511bb5166a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 
 --- !u!4 &401840696
 Transform:
   m_ObjectHideFlags: 0
@@ -160,8 +161,8 @@ MonoBehaviour:
   numberOfBad: 5
   min: -10
   max: 10
-  life: 3
-  speed: 7
+  life: 5
+  speed: 5
 --- !u!4 &528653109
 Transform:
   m_ObjectHideFlags: 0
@@ -241,8 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 5
-  speed: 8
+  numberOfNeutral: 10
+  speed: 5
   life: 3
   min: -10
   max: 10
@@ -286,8 +287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 5
-  speed: 6
+  numberOfNeutral: 10
+  speed: 5
   life: 4
   min: -5
   max: 5
@@ -402,6 +403,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 141514, guid: 257ec92bfc672be44a61d345370e10c6, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 257ec92bfc672be44a61d345370e10c6, type: 2}
   m_IsPrefabParent: 0
@@ -438,8 +443,8 @@ MonoBehaviour:
   numberOfBad: 5
   min: -10
   max: 10
-  life: 2
-  speed: 9
+  life: 6
+  speed: 5
 --- !u!4 &1182823847
 Transform:
   m_ObjectHideFlags: 0
@@ -923,6 +928,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1829350533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1829350529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1949560310
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,7 +955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1949560311
 Light:
   m_ObjectHideFlags: 0
@@ -1016,8 +1033,8 @@ MonoBehaviour:
   numberOfBad: 5
   min: -5
   max: 5
-  life: 5
-  speed: 7
+  life: 7
+  speed: 5
 --- !u!4 &2045600988
 Transform:
   m_ObjectHideFlags: 0
@@ -1058,8 +1075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neutralPrefab: {fileID: 110088, guid: 607aefae84a4b4a49bca24832e6ab619, type: 2}
-  numberOfNeutral: 5
-  speed: 9
+  numberOfNeutral: 10
+  speed: 5
   life: 2
   min: -10
   max: 10

@@ -18,6 +18,7 @@ public class GnEClouds : MonoBehaviour
     public int min, max;
     public float life;
     public float speed = 7.0f;
+
     enum CLOUDTYPE
     {
         baddie,
@@ -48,6 +49,14 @@ public class GnEClouds : MonoBehaviour
                 {
                     badCloudParent.transform.parent = this.gameObject.transform;
                     GameObject badCloud = Instantiate(badPrefab, GeneratedPosition(), Quaternion.AngleAxis(180, Vector3.up)) as GameObject;
+                    badCloud.transform.tag = "evilcloud";
+                    BoxCollider e_bc = (BoxCollider)badCloud.gameObject.AddComponent(typeof(BoxCollider));
+                    if (e_bc != null)
+                    {
+                        e_bc.center = new Vector3(0.35f, -0.007f, -0.2f);
+                        e_bc.size = new Vector3(0.8f, 0.5f, 0.65f);
+                    }
+                    e_bc.isTrigger = true;
                     badCloud.transform.parent = badCloudParent.transform;
                 }
                 //do baddy stuff
@@ -59,6 +68,14 @@ public class GnEClouds : MonoBehaviour
                 {
                     goodCloudParent.transform.parent = this.gameObject.transform;
                     GameObject goodCloud = Instantiate(goodPrefab,GeneratedPosition(), Quaternion.AngleAxis(180, Vector3.up)) as GameObject;
+                    goodCloud.transform.tag = "goodcloud";
+                    BoxCollider g_bc = (BoxCollider)goodCloud.gameObject.AddComponent(typeof(BoxCollider));
+                    if (g_bc != null)
+                    {
+                        g_bc.center = new Vector3(-0.2f, 0.055f, 0.2f);
+                        g_bc.size = new Vector3(1.1f, 0.5f, 0.7f);
+                    }
+                    g_bc.isTrigger = true;
                     goodCloud.transform.parent = goodCloudParent.transform;
                 }
                 //do goody stuff
