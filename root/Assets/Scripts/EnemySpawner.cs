@@ -19,8 +19,8 @@ public class EnemySpawner : MonoBehaviour
         //InvokeRepeating ("Spawning", spawnTime, spawnTime);
     }
 
-    private int xBounds = 500;
-    private int zBounds = 500;
+    private int xBounds = 250;
+    private int zBounds = 250;
 
     void Spawn()
     {
