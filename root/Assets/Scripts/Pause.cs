@@ -36,6 +36,7 @@ public class Pause : MonoBehaviour
             {
                 print("Back to Map");
                 Application.LoadLevel("map_layout");
+                Time.timeScale = 1.0f;
             }
 
             //Quit the entire game 
