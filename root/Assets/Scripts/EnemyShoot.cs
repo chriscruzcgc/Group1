@@ -10,31 +10,30 @@ public class EnemyShoot : MonoBehaviour
     public float speed;
     public GameObject bullet;
     public float lifetime = 2.0f;
-   // public Rigidbody EnemyBulletPrefab;
     private Vector3 target;
+    public float timeS;
     void Start()
     {
+         
         this.nextShootTime = Random.Range(minShootDelay, maxShootDelay);
 
 
     }
 
-    /*void Awake()
-    {
-        Destroy(gameObject, lifetime);
-    }*/
-   
     void Update()
     {
         this.target = this.transform.position - Vector3.down;//new Vector3(0, -20, 0);
         /*Vector3 newVelocity = Vector3.down;
         newVelocity.y = speed;*/
-        if (Time.time > nextShootTime)
+        if (Time.timeSinceLevelLoad > nextShootTime)
         {
-            Instantiate(bullet, this.transform.position, Quaternion.identity);
+            GameObject bu =  Instantiate(bullet, this.transform.position, Quaternion.identity) as GameObject;
+            bu.GetComponent<Rigidbody>().useGravity = true;
             nextShootTime = Time.time + Random.Range(minShootDelay, maxShootDelay);
             // EnemyBulletPrefab.GetComponent.<Rigidbody>().AddForce(Vector3.up * 115);
         }
+        
+        
     }
 }
   

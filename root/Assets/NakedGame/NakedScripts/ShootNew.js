@@ -1,9 +1,11 @@
-﻿
+﻿ 
 var projectile : Rigidbody;
 var speed = 0.5;
 var ammo : int = 0;
 var maxAmmo : int = 10;
 var ammoText : GUIText;
+
+
 
 
 
