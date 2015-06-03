@@ -8,7 +8,9 @@ var fireRate = 0.5;
 var nextFire = 0;
 var lives : int;
 var lifetime = 2.0;
-
+var fire : AudioClip;
+var bump : AudioClip;
+RequireComponent(AudioSource);
 
 
 
@@ -28,6 +30,12 @@ function OnTriggerEnter(col : Collider)
             Application.LoadLevel("map_layout");
         }
     }
+
+    function OnCollisionEnter(collision : Collision)
+        {
+            if(collision)
+                GetComponent.<AudioSource>().PlayOneShot(bump);
+        }
 
 
     /*function OnDestroy()
@@ -67,6 +75,7 @@ function OnTriggerEnter(col : Collider)
             var spawn_bullet = Instantiate (bullet, transform.position, Quaternion.identity);
             spawn_bullet.GetComponent.<Rigidbody>().AddForce(Vector3.up * 115);
             nextFire = Time.time + fireRate;
+            GetComponent.<AudioSource>().PlayOneShot(fire);
            // var clone = Instantiate (bullet, transform.position, transform.rotation);
 
     }
