@@ -31861,7 +31861,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 819373270}
   m_Layer: 0
-  m_Name: AllTheBigTrees
+  m_Name: Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32724,7 +32724,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 829846534}
   m_Layer: 0
-  m_Name: AllTheSmallTrees
+  m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50509,7 +50509,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1237907194}
   m_Layer: 0
-  m_Name: AllTheWideTrees
+  m_Name: Wide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74375,6 +74375,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1869105463}
+  - 95: {fileID: 1869105464}
   m_Layer: 0
   m_Name: LevelWayPoint1
   m_TagString: Untagged
@@ -74398,6 +74399,23 @@ Transform:
   - {fileID: 1925642714}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 19
+--- !u!95 &1869105464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1869105462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c9e0c7e23062e9b429749d805286484f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1872457272
 GameObject:
   m_ObjectHideFlags: 0
