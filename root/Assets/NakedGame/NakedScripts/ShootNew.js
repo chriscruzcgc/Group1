@@ -1,9 +1,20 @@
-﻿
-var projectile : Rigidbody;
+﻿using UnityEngine;
+using System.Collections;
+
+
+public class ShootNew : Monobehaviour
+{
+
+
+
+}
+private projectile : Rigidbody;
 var speed = 0.5;
 var ammo : int = 0;
 var maxAmmo : int = 10;
 var ammoText : GUIText;
+
+
 
 
 
