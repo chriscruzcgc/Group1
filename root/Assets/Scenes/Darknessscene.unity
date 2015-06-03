@@ -573,7 +573,7 @@ WindZone:
   m_WindMain: 1
   m_WindTurbulence: 1
   m_WindPulseMagnitude: .5
-  m_WindPulseFrequency: .100000001
+  m_WindPulseFrequency: 1
 --- !u!1 &1205696939
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,10 +886,10 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 0
-  m_Color: {r: .889705896, g: .889705896, b: .575692058, a: 1}
-  m_Intensity: 6
+  m_Color: {r: .889705896, g: .889705896, b: .543027401, a: 1}
+  m_Intensity: 8
   m_Range: 60
-  m_SpotAngle: 10
+  m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -899,13 +899,13 @@ Light:
     m_NormalBias: .400000006
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
-  m_Flare: {fileID: 0}
+  m_Flare: {fileID: 12100000, guid: 54fbbf098d116effa00081aba8ad6659, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 1
+  m_BounceIntensity: 1.04999995
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
