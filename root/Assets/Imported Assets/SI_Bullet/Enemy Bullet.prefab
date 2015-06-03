@@ -12,7 +12,6 @@ GameObject:
   - 65: {fileID: 6500000}
   - 23: {fileID: 2300000}
   - 54: {fileID: 5400000}
-  - 114: {fileID: 11497096}
   - 114: {fileID: 11410366}
   m_Layer: 8
   m_Name: Enemy Bullet
@@ -102,18 +101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3470d19d5b203cd458ad540c5ef4a5ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11497096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7d94603277650449ae225fe68ac7d28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifetime: 2
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
