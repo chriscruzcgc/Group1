@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SkyboxMaterial: {fileID: 2100000, guid: d07d2172e76d3fa429e80a14d2ae3616, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6f57e3384acd5dc45bb4df479f10466b, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -161,8 +161,8 @@ MonoBehaviour:
   numberOfBad: 200
   min: -35
   max: 35
-  life: 20
-  speed: 8
+  life: 30
+  speed: 9
 --- !u!4 &528653109
 Transform:
   m_ObjectHideFlags: 0
@@ -443,8 +443,8 @@ MonoBehaviour:
   numberOfBad: 100
   min: -25
   max: 25
-  life: 20
-  speed: 8
+  life: 30
+  speed: 9
 --- !u!4 &1182823847
 Transform:
   m_ObjectHideFlags: 0
@@ -1033,8 +1033,8 @@ MonoBehaviour:
   numberOfBad: 100
   min: -25
   max: 25
-  life: 20
-  speed: 8
+  life: 30
+  speed: 9
 --- !u!4 &2045600988
 Transform:
   m_ObjectHideFlags: 0
