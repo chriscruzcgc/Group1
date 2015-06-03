@@ -18,6 +18,7 @@ public class BulletCollider : MonoBehaviour {
         }
         else if (col.gameObject.name == "Enemy Bullet")
         {
+
             Destroy(gameObject);
         }
         else if (col.gameObject.name != "bed1")
