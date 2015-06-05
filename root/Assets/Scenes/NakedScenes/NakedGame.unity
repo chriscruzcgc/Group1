@@ -462,9 +462,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 119458, guid: cbeccc8ecd5e57d4483c28fe583bf27c, type: 2}
-  speed: 250
+  speed: 350
   maxAmmo: 10
   ammoText: {fileID: 272278323}
+  _timer: {fileID: 494737463}
 --- !u!1001 &144721917
 Prefab:
   m_ObjectHideFlags: 0
@@ -1032,6 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTimer: 30
+  timerDone: 0
 --- !u!1 &587911621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3639,15 +3641,31 @@ Prefab:
       objectReference: {fileID: 272278323}
     - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.00400000019
+      value: -.00749999983
       objectReference: {fileID: 0}
     - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .0520000011
+      value: .0874999985
       objectReference: {fileID: 0}
     - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .108000003
+      value: -.00400000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463262, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11426516, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}

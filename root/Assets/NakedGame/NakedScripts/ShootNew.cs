@@ -17,9 +17,11 @@ public class ShootNew : MonoBehaviour
         {
 
             GameObject clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+			clone.transform.SetParent(gameObject.transform);
 
 
-			clone.GetComponent<Rigidbody>().AddForce(0,0,speed);
+			clone.GetComponent<Rigidbody>().AddForce(0,20,speed);
+			clone.transform.SetParent(null);
 
            //clone.transform = transform.TransformDirection(0, 0, speed);
             ammo --;
