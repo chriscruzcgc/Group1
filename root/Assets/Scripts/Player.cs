@@ -43,23 +43,21 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Start() { }
 
+    bool KeyDown = false;
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             print("SPACE PRESSED");
-            if (gameObject.tag == "goodcloud")
-            {
-                
-            }
+            Camera.main.GetComponent<Animation>().Play();
         }
-
         float x = Input.GetAxis("Horizontal") * Time.smoothDeltaTime * speed;
         //print(x);
         float y = Input.GetAxis("Vertical") * Time.smoothDeltaTime * speed;
 
         Vector3 pos = transform.position;
+        
 
         //pos.x = Mathf.Clamp (pos.x + x, -5, 5); // Restrict Player's X to the edge of screen
         //pos.z = Mathf.Clamp (pos.z + y, -5, 5); // Restrict Player's Y to the edge of screen
@@ -72,4 +70,6 @@ public class Player : MonoBehaviour
         transform.Translate(x, 0, y, Space.Self);
 
     }
+
+    
 }
