@@ -33,8 +33,9 @@ public class Timer : MonoBehaviour {
 		else 
 		{ 
 			timerDone = true; 
-			print ("timer done");
 		}
 	
 	}
+
+   
 }
