@@ -1591,6 +1591,25 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 66413dfb21c0643478ace593e2c0555d, type: 3}
   m_PrefabInternal: {fileID: 252612}
+--- !u!1 &811110602
+GameObject:
+  m_PrefabParentObject: {fileID: 113348, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
+  m_PrefabInternal: {fileID: 1857153866}
+--- !u!114 &811110610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 811110602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d6135671f5f564d88f89f8ef6d1dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4
+  shirt: {fileID: 0}
+  pants: {fileID: 0}
+  shoes: {fileID: 0}
 --- !u!1 &909613954
 GameObject:
   m_ObjectHideFlags: 0
