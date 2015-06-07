@@ -3466,6 +3466,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 83953332}
+  - 95: {fileID: 83953333}
   m_Layer: 0
   m_Name: LevelWayPoint11
   m_TagString: Untagged
@@ -3489,6 +3490,23 @@ Transform:
   - {fileID: 758834503}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 9
+--- !u!95 &83953333
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 83953331}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34ed4d1c587969a4bbd70e6169a74162, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &84552181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4403,6 +4421,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 106519455}
+  - 95: {fileID: 106519456}
   m_Layer: 0
   m_Name: LevelWayPoint17
   m_TagString: Untagged
@@ -4426,6 +4445,23 @@ Transform:
   - {fileID: 376096809}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 3
+--- !u!95 &106519456
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106519454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 865ebb0bff9b8bc4cb49883e8c8212d8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &106645319
 GameObject:
   m_ObjectHideFlags: 0
@@ -12086,6 +12122,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 294617932}
+  - 95: {fileID: 294617933}
   m_Layer: 0
   m_Name: LevelWayPoint16
   m_TagString: Untagged
@@ -12109,6 +12146,23 @@ Transform:
   - {fileID: 475476185}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 4
+--- !u!95 &294617933
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294617931}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c62c7e5d15e651b47b3fbee0d0f4f3e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &295808288
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,6 +14846,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 355759778}
+  - 95: {fileID: 355759779}
   m_Layer: 0
   m_Name: LevelWayPoint8
   m_TagString: Untagged
@@ -14815,6 +14870,23 @@ Transform:
   - {fileID: 1112438103}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 12
+--- !u!95 &355759779
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355759777}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 63a9977ad2529b240b5ac56541a217c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &359772342
 GameObject:
   m_ObjectHideFlags: 0
@@ -18678,6 +18750,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 462920986}
+  - 95: {fileID: 462920987}
   m_Layer: 0
   m_Name: LevelWayPoint15
   m_TagString: Untagged
@@ -18701,6 +18774,23 @@ Transform:
   - {fileID: 115369304}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 5
+--- !u!95 &462920987
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462920985}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d9f1379e15215e24c8e65b63b879f53b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &464002911
 GameObject:
   m_ObjectHideFlags: 0
@@ -24642,6 +24732,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 604686007}
+  - 95: {fileID: 604686008}
   m_Layer: 0
   m_Name: LevelWayPoint7
   m_TagString: Untagged
@@ -24665,6 +24756,23 @@ Transform:
   - {fileID: 1669216152}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 13
+--- !u!95 &604686008
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604686006}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34e33d7487714944b8fe28ae5b9761be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &606898894
 GameObject:
   m_ObjectHideFlags: 0
@@ -25250,6 +25358,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 624120376}
+  - 95: {fileID: 624120377}
   m_Layer: 0
   m_Name: LevelWayPoint14
   m_TagString: Untagged
@@ -25273,6 +25382,23 @@ Transform:
   - {fileID: 1520974895}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 6
+--- !u!95 &624120377
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624120375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6d5ce6e2352f9646a790df8e35c2965, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &624222614
 GameObject:
   m_ObjectHideFlags: 0
@@ -26669,6 +26795,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 661552006}
+  - 95: {fileID: 661552007}
   m_Layer: 0
   m_Name: LevelWayPoint2
   m_TagString: Untagged
@@ -26692,6 +26819,23 @@ Transform:
   - {fileID: 1142341526}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 18
+--- !u!95 &661552007
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 661552005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6fc44a6e889e5c540968acedf938652f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &665478050
 GameObject:
   m_ObjectHideFlags: 0
@@ -27173,6 +27317,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 675370335}
+  - 95: {fileID: 675370336}
   m_Layer: 0
   m_Name: LevelWayPoint10
   m_TagString: Untagged
@@ -27196,6 +27341,23 @@ Transform:
   - {fileID: 2020569090}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 10
+--- !u!95 &675370336
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675370334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bab7907234aab3e4b8d8b7e948a088bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &676688785
 GameObject:
   m_ObjectHideFlags: 0
@@ -27540,6 +27702,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 685836708}
+  - 95: {fileID: 685836709}
   m_Layer: 0
   m_Name: LevelWayPoint4
   m_TagString: Untagged
@@ -27563,6 +27726,23 @@ Transform:
   - {fileID: 1953838499}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 16
+--- !u!95 &685836709
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685836707}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e355091ac30fade409c55594e88a8b70, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &685901886
 GameObject:
   m_ObjectHideFlags: 0
@@ -32199,6 +32379,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 822536433}
+  - 95: {fileID: 822536434}
   m_Layer: 0
   m_Name: LevelWayPoint12
   m_TagString: Untagged
@@ -32222,6 +32403,23 @@ Transform:
   - {fileID: 270107953}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 8
+--- !u!95 &822536434
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822536432}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 540b602af0aee6a469d49b6f701f65a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &823457206
 GameObject:
   m_ObjectHideFlags: 0
@@ -34079,6 +34277,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 850425235}
+  - 95: {fileID: 850425236}
   m_Layer: 0
   m_Name: LevelWayPoint13
   m_TagString: Untagged
@@ -34102,6 +34301,23 @@ Transform:
   - {fileID: 1386727653}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 7
+--- !u!95 &850425236
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850425234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5fbd9b9c2eff01547aebce4520ab9f24, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &852872266
 GameObject:
   m_ObjectHideFlags: 0
@@ -36327,6 +36543,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 913085321}
+  - 95: {fileID: 913085322}
   m_Layer: 0
   m_Name: LevelWayPoint19
   m_TagString: Untagged
@@ -36350,6 +36567,23 @@ Transform:
   - {fileID: 753660201}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 1
+--- !u!95 &913085322
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913085320}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8abd79bed8f9e6a408133e7d131a5af9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &913135891
 GameObject:
   m_ObjectHideFlags: 0
@@ -37822,6 +38056,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 953820021}
+  - 95: {fileID: 953820022}
   m_Layer: 0
   m_Name: LevelWayPoint5
   m_TagString: Untagged
@@ -37845,6 +38080,23 @@ Transform:
   - {fileID: 1416412665}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 15
+--- !u!95 &953820022
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 953820020}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c91b6d01ee18fe14281cd50731005688, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &954547589
 GameObject:
   m_ObjectHideFlags: 0
@@ -39681,6 +39933,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1003860923}
+  - 95: {fileID: 1003860924}
   m_Layer: 0
   m_Name: LevelWayPoint9
   m_TagString: Untagged
@@ -39704,6 +39957,23 @@ Transform:
   - {fileID: 865050538}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 11
+--- !u!95 &1003860924
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1003860922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3508aa4b72bcf94c892f02651e35661, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1004158011
 GameObject:
   m_ObjectHideFlags: 0
@@ -48301,6 +48571,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1202990320}
+  - 95: {fileID: 1202990321}
   m_Layer: 0
   m_Name: LevelWayPoint3
   m_TagString: Untagged
@@ -48315,7 +48586,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1202990319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.88758337, y: -.066649437, z: 4.43727016}
+  m_LocalPosition: {x: 2.02999997, y: -.0700000003, z: 4.5999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 578136544}
@@ -48324,6 +48595,23 @@ Transform:
   - {fileID: 159336201}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 17
+--- !u!95 &1202990321
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202990319}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2a593eb8fc8f5e4d9b2a227319c5282, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1203266687
 GameObject:
   m_ObjectHideFlags: 0
@@ -63500,6 +63788,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1580583254}
+  - 95: {fileID: 1580583255}
   m_Layer: 0
   m_Name: LevelWayPoint18
   m_TagString: Untagged
@@ -63523,6 +63812,23 @@ Transform:
   - {fileID: 2097662858}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 2
+--- !u!95 &1580583255
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580583253}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3fd51e9463ce7244cb517fb729dd0bf8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1581200138
 GameObject:
   m_ObjectHideFlags: 0
@@ -75915,6 +76221,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1904156545}
+  - 95: {fileID: 1904156546}
   m_Layer: 0
   m_Name: LevelWayPoint20
   m_TagString: Untagged
@@ -75938,6 +76245,23 @@ Transform:
   - {fileID: 1842252261}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 0
+--- !u!95 &1904156546
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1904156544}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb77d8d3091779b4d912f21eabed0836, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1909251678
 GameObject:
   m_ObjectHideFlags: 0
@@ -78348,6 +78672,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2004001259}
+  - 95: {fileID: 2004001260}
   m_Layer: 0
   m_Name: LevelWayPoint6
   m_TagString: Untagged
@@ -78371,6 +78696,23 @@ Transform:
   - {fileID: 1448822888}
   m_Father: {fileID: 1107234699}
   m_RootOrder: 14
+--- !u!95 &2004001260
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004001258}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6d70e23cf43caa4aae83372b31d70dc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2009114447
 GameObject:
   m_ObjectHideFlags: 0
