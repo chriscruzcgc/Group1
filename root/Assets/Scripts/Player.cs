@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-
+    AudioSource audio1;
     public float speed = 3.0f;
     public float score = 0f;
 
@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
             //score -= 5;
             ScoreManager.instance.Score = score -= 5;
             print("Lost points");
+            audio1.Play();
             Destroy(collision.gameObject);
         }
         //If player collides with 'Good', score increases & good is destroyed
@@ -36,12 +37,16 @@ public class Player : MonoBehaviour
             //score += 5;
             ScoreManager.instance.Score = score += 5;
             print("Points gained");
+            audio1.Play();
             Destroy(collision.gameObject);
         };
     }
  
     // Use this for initialization
-    void Start() { }
+    void Start() 
+    { 
+        audio1 = GetComponent<AudioSource>();
+    }
 
     bool KeyDown = false;
     // Update is called once per frame
@@ -58,7 +63,6 @@ public class Player : MonoBehaviour
 
         Vector3 pos = transform.position;
         
-
         //pos.x = Mathf.Clamp (pos.x + x, -5, 5); // Restrict Player's X to the edge of screen
         //pos.z = Mathf.Clamp (pos.z + y, -5, 5); // Restrict Player's Y to the edge of screen
 
