@@ -2953,6 +2953,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: a9fcb7d3ba4209949aee0978c2b73486, type: 3}
+    - target: {fileID: 8240810, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
+      propertyPath: m_Volume
+      value: .503000021
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11426516, guid: 7d30180d4e48a924e9ce21ac19261e53, type: 2}
     - {fileID: 0}
